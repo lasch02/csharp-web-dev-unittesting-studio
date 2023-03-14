@@ -1,0 +1,9 @@
+﻿Build started...
+1>------ Build started: Project: BalancedBrackets, Configuration: Debug Any CPU ------
+1>Skipping analyzers to speed up the build. You can execute 'Build' or 'Rebuild' command to run analyzers.
+1>BalancedBrackets -> C:\Users\Gellman Team\Desktop\Repos-Lectures-Studios\C-sharp\csharp-web-dev-unittesting-studio\BalancedBrackets\bin\Debug\net6.0\BalancedBrackets.dll
+2>------ Build started: Project: BalancedBracketsTests, Configuration: Debug Any CPU ------
+2>Skipping analyzers to speed up the build. You can execute 'Build' or 'Rebuild' command to run analyzers.
+2>BalancedBracketsTests -> C:\Users\Gellman Team\Desktop\Repos-Lectures-Studios\C-sharp\csharp-web-dev-unittesting-studio\BalancedBracketsTests\bin\Debug\net6.0\BalancedBracketsTests.dll
+========== Build: 2 succeeded, 0 failed, 0 up-to-date, 0 skipped ==========
+========== Build started at 5:02 PM and took 00.980 seconds ==========

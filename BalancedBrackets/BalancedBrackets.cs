@@ -25,19 +25,27 @@ namespace BalancedBrackets
 
         public static bool HasBalancedBrackets(String str)
         {
-            int brackets = 0;
+            int brackets = 0; //integer starts with 0 
             foreach (char ch in str.ToCharArray())
             {
-                if (ch == '[')
+                if (brackets >= 0)
                 {
-                    brackets++;
+                    if (ch == '[')
+                    {
+                        brackets++;  ///this adds 1 to the integer if there is an opening bracket
+                    }
+                    else if (ch == ']')
+                    {
+                        brackets--;  ///this subtracts 1 to the integer if there is a closing bracket
+                    }
+               
                 }
-                else if (ch == ']')
+                else
                 {
-                    brackets--;
+                    return false;
                 }
             }
-            return brackets == 0;
+            return brackets == 0;  //integer should end with 0 
         }
     }
 }
